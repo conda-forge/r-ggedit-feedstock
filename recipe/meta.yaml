@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggedit_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggedit/ggedit_{{ version }}.tar.gz
-  sha256: f66704142b6d79e926cbb5c85eb4d6dffc97c08b68ef2ca1c74c1e52a7bb2aed
+  sha256: 452ae8a558a9590d7122c7c5404aaefea17df81004d762e28a8e1f6a3096cb81
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 1003
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/

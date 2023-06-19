@@ -1,11 +1,11 @@
-About r-ggedit
-==============
+About r-ggedit-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggedit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/yonicd/ggedit
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggedit-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interactively edit 'ggplot2' layer and theme aesthetics definitions.
 

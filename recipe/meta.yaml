@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggedit_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggedit/ggedit_{{ version }}.tar.gz
-  sha256: ffc9533da64098a262cb9ad18ccba70b92e15fc440e4779e02d41a84d76707ec
+  sha256: 8f444e877ad1947bfa0e40229ef1b40c7a97d60ec4ad8bfa4a7752679f17d3d6
 
 build:
   number: 2
